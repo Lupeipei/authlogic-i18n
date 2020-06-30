@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "authlogic/i18n"
+require "authlogic-i18n"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
