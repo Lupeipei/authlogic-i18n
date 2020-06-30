@@ -4,8 +4,7 @@ zh-CN:
       login_blank: 不能为空
       login_not_found: 是无效的
       login_invalid: 只允许使用字母，数字，空格和.-_@+。
-      consecutive_failed_logins_limit_exceeded: >
-        连续登录失败次数超过限制，帐户被禁用。
+      consecutive_failed_logins_limit_exceeded: 连续登录失败次数超过限制，帐户被禁用。
       email_invalid: 邮箱地址无效
       email_invalid_international: 国际邮箱地址无效
       password_blank: 不能为空
@@ -15,11 +14,11 @@ zh-CN:
       not_approved: 您的账户未批准
       no_authentication_details: 您未提供任何认证细节。
       general_credentials_error: 登陆名/密码无效
-      session_invalid: 你的会话无效，错误如下：
+      session_invalid: '你的会话无效，错误如下：'
     models:
       user_session: 用户会话
     attributes:
-      user_session: 用户会话
+      user_session:
         login: 登陆名
         email: 邮箱
         password: 密码
